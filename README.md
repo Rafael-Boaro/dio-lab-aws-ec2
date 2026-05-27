@@ -16,7 +16,7 @@ Este repositório contém a documentação técnica e o planejamento de infraest
 
 A infraestrutura foi desenhada para utilizar recursos otimizados e elegíveis ao nível gratuito (Free Tier):
 
-- **Tipo de Instância:** `t2.micro` (1 vCPU, 1 GB RAM)
+- **Tipo de Instância:** `t3.micro` (1 vCPU, 1 GB RAM)
 - **Sistema Operacional (AMI):** Amazon Linux 2023
 - **Armazenamento (EBS):** 8 GB, General Purpose SSD (gp3) - *Escolhido pela maior performance de IOPS base (3.000) com menor custo que a geração gp2.*
 - **Segurança (Security Group):**
