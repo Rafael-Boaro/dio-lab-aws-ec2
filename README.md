@@ -31,7 +31,7 @@ Foi realizada uma projeção de custos para manter o servidor operando 24/7 (730
 
 > **Estimativa Mensal Total:** ~$X.XX USD *(Insira o valor da sua simulação aqui)*
 
-![Simulação de Custos AWS](imagens/aws-pricing-calc.png)
+![Simulação de Custos AWS](imagens/aws-pricing-calc.png.png)
 
 ---
 
