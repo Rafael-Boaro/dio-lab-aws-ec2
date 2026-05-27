@@ -18,9 +18,8 @@ A infraestrutura foi desenhada para utilizar recursos otimizados e elegíveis ao
 
 - **Tipo de Instância:** `t3.micro` (1 vCPU, 1 GB RAM)
 - **Sistema Operacional (AMI):** Amazon Linux 2023
-- **Armazenamento (EBS):** 8 GB, General Purpose SSD (gp3) - *Escolhido pela maior performance de IOPS base (3.000) com menor custo que a geração gp2.*
-- **Segurança (Security Group):**
-  - **Inbound:** Porta `22` (SSH) restrita ao IP do administrador (evitando exposição global `0.0.0.0/0`).
+- **Armazenamento (EBS):** 8 GB, General Purpose SSD (gp3)
+  - **Inbound:** Porta `22` (SSH) restrita ao IP do administrador
   - **Outbound:** Tráfego totalmente liberado para atualizações do sistema.
 
 ---
